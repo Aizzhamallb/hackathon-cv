@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+}
+header {
+  /* width: 100%; */
+  background-color: #002939;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px 70px;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 25px;
+  color: #e4cfa9;
+}
+.navbar-item {
+  color: #e4cfa9;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.menu {
+  display: none;
+}
+.main {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e4cfa9;
+}
+.main-img {
+  width: 30%;
+  /* margin-left: 30px; */
+}
+h1 {
+  color: #002939;
+  font-size: 55px;
+}
+.main-text__info {
+  margin-top: 20px;
+  color: #002939;
+  font-size: 24px;
+}
+.skills {
+  background-color: #002939;
+  color: #e4cfa9;
+}
+.skills-text h2 {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 50px;
+}
+.skills-text h5 {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+}
+.skills-level {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.skills-level__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.skills-level__right p {
+  font-size: 24px;
+  line-height: 55px;
+}
+.skills-level__1 {
+  border-bottom: 3px solid green;
+  width: 1043px;
+}
+.skills-level__2 {
+  border-bottom: 3px solid yellowgreen;
+  width: 800px;
+}
+.skills-level__3 {
+  border-bottom: 3px solid green;
+  width: 1043px;
+}
+.skills-level__4 {
+  border-bottom: 3px solid yellowgreen;
+  width: 800px;
+}
+.skills-level__5 {
+  border-bottom: 3px solid orange;
+  width: 900px;
+}
+.skills-level__percent {
+  font-size: 28px;
+  line-height: 60px;
+  padding-right: 130px;
+  padding-top: 30px;
+}
+.facts {
+  width: 100%;
+  background-image: url(./images/hobby.jpg);
+}
+.facts-block {
+  width: 100%;
+  height: auto;
+  background-color: #e4cfa9;
+  color: #002939;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+.footer {
+  width: 100%;
+  background-color: #002939;
+  color: #e4cfa9;
+  font-size: 24px;
+}
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#email {
+  color: #e4cfa9;
+}
+@media all and (max-width: 1300px) {
+  .skills-level__1 {
+    width: 500px;
+  }
+  .skills-level__2 {
+    width: 200px;
+  }
+  .skills-level__3 {
+    width: 500px;
+  }
+  .skills-level__4 {
+    width: 200px;
+  }
+  .skills-level__5 {
+    width: 300px;
+  }
+}
+@media all and (max-width: 900px) {
+  .footer-logo {
+    flex-wrap: wrap;
+  }
+}
+@media all and (max-width: 850px) {
+  ul {
+    font-size: 24px;
+  }
+  .facts-block {
+    font-size: 36px;
+  }
+}
+@media all and (max-width: 785px) {
+  .skills-level__percent {
+    padding-right: 0%;
+  }
+}
+@media all and (max-width: 654px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+.main-text__info {
+  font-size: 18px;
+}
+.skills-level__1 {
+  width: 250px;
+}
+.skills-level__2 {
+  width: 120px;
+}
+.skills-level__3 {
+  width: 250px;
+}
+.skills-level__4 {
+  width: 120px;
+}
+.skills-level__5 {
+  width: 180px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.navbar {
+  display: none;
+}
+.menu {
+  display: block;
+}
+
+@media all and (max-width: 405px) {
+  h2 {
+    font-size: 24px;
+  }
+  .skills-level__1 {
+    width: 120px;
+  }
+  .skills-level__2 {
+    width: 60px;
+  }
+  .skills-level__3 {
+    width: 120px;
+  }
+  .skills-level__4 {
+    width: 60px;
+  }
+  .skills-level__5 {
+    width: 50px;
+  }
+}
+@media all and (max-width: 390px) {
+  .skills-level__percent {
+    display: none;
+  }
+}
+
+/* .hobbies {
+  background-color: #002939;
+} */
