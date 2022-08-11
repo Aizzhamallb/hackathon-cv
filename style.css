@@ -182,36 +182,37 @@ ul {
   h1 {
     font-size: 30px;
   }
-}
-.main-text__info {
-  font-size: 18px;
-}
-.skills-level__1 {
-  width: 250px;
-}
-.skills-level__2 {
-  width: 120px;
-}
-.skills-level__3 {
-  width: 250px;
-}
-.skills-level__4 {
-  width: 120px;
-}
-.skills-level__5 {
-  width: 180px;
-}
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: baseline;
-}
-.navbar {
-  display: none;
-}
-.menu {
-  display: block;
+
+  .main-text__info {
+    font-size: 18px;
+  }
+  .skills-level__1 {
+    width: 250px;
+  }
+  .skills-level__2 {
+    width: 120px;
+  }
+  .skills-level__3 {
+    width: 250px;
+  }
+  .skills-level__4 {
+    width: 120px;
+  }
+  .skills-level__5 {
+    width: 180px;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+  .navbar {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
 }
 
 @media all and (max-width: 405px) {
