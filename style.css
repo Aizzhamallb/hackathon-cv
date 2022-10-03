@@ -42,23 +42,7 @@ header {
   width: 30%;
   /* margin-left: 30px; */
 }
-@keyframes identifier {
-  0% {
-    top: 0;
-    left: 0;
-  }
-  30% {
-    top: 50px;
-  }
-  68%,
-  72% {
-    left: 50px;
-  }
-  100% {
-    top: 100px;
-    left: 100%;
-  }
-}
+
 h1 {
   color: #002939;
   font-size: 55px;
